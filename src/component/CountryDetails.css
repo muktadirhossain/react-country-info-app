@@ -1,0 +1,19 @@
+.country_details{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 50px;
+    
+
+}
+h1{
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+img{
+    border-radius: 15px;
+}
+p{
+    font-size: 25px;
+}

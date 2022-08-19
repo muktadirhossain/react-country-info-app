@@ -1,0 +1,27 @@
+
+.country-div{
+    min-height: max-content;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid rgba(145, 145, 145, 0.678);
+    border-radius: 15px;
+    margin: 15px;
+    padding: 30px;
+    
+    
+}
+.country-div .flag-img img{
+    display: block;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 8px 15px;
+}
