@@ -4,24 +4,23 @@ import './Country.css';
 
 function Country(props) {
   const {name, region, flags, capital} = props.country;
-
-
-  //console.log(props.country);
   const countryName = name.common;
-  // console.log(countryName)
-   
+  console.log(flags.png)
+
+ 
   return (
     <div className='country-div '>
 
       <div className="flag-img">
-        <img src={flags.png} alt="" srcset="" />
+        <img src={flags.png} alt="Flag-img" srcset="" />
+        
       </div>
 
-      <div className="country-info">
-        <h4>Country : {countryName}</h4>
-        <h5>Capital : {capital}</h5>
+      <div className="country-info pt-5">
+        <h3> {countryName}</h3>
+        <p>Capital : {capital}</p>
         <p>Region: {region}</p>
-        <Link className='btn' to={'/country/'+countryName}>See details</Link>   
+        <Link className='btn mt-2' to={'/country/'+countryName}> See details</Link>   
       </div>
 
     </div>

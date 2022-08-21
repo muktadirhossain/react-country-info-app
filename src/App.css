@@ -1,4 +1,10 @@
 .main{
-    background-color: rgb(207, 207, 207);
     text-align: center;
+}
+input{
+    padding: 25px !important;
+}
+.center{
+    width: 30%;
+    margin: auto;
 }

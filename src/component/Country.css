@@ -11,6 +11,10 @@
     
     
 }
+.country-info p{
+    font-weight: 400;
+    font-size: 20px;
+}
 .country-div .flag-img img{
     display: block;
     height: 250px;
@@ -19,9 +23,12 @@
 }
 
 .btn{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.822);
     text-decoration: none;
     border-radius: 5px;
     color: rgb(255, 255, 255);
     padding: 8px 15px;
+}
+.btn:hover{
+    color: black;
 }
